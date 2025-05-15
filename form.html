@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>match your Vibe</title>
+    <link rel="stylesheet" href="..\css\style.css">
+</head>
+<body>
+    <header>
+        <h1 id ="name"> match your vibe </h1>
+    <nav>
+        <ul class="bar">
+            <li class="bar"><a href="index.html">Home</a></li>
+            <li class="bar"><a href="form.html">Form</a></li>
+            <li class="bar"><a href="book.html">Book</a></li>
+            <li class="bar"><a href="anime.html">Anime</a></li>
+            <li class="bar"><a href="movie.html">Movie</a></li>
+        </ul>
+        
+
+    </nav>
+    <h3 id="form-head"> please fill this form</h3>
+<div class="form-wrapper">
+    <form action="form" method="get" class="form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <br>
+        <label>Genres:</label>
+        <input type="checkbox" name="Genres" value="action"> Action
+        <input type="checkbox" name="Genres" value="comedy"> Comedy
+        <input type="checkbox" name="Genres" value="drama"> Drama
+        <input type="checkbox" name="Genres" value="fantasy"> Fantasy
+        <input type="checkbox" name="Genres" value="shoujo"> Shoujo
+        <input type="checkbox" name="Genres" value="romance"> Romance
+        <input type="checkbox" name="Genres" value="Crime"> Crime
+        <input type="checkbox" name="Genres" value="Shounen"> Shounen
+        <input type="checkbox" name="Genres" value="Adventure"> Adventure
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        <button type="done" class="done">done!</button>
+    </form>
+    
+    <br>
+</div>
+    <button class="button" onclick="scrollToTop()"> Scroll to Top</button>
+    <script src="..\js\javascript.js"></script>
+
+
+</body>
+</html>
