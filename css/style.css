@@ -1,0 +1,141 @@
+body {
+    background-color: #cad3ee;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.bar {
+    background-color: #2d3142;
+    padding: 10px ;
+    display: flex;
+    margin: 0  ;
+    list-style: none;
+   justify-content: center;
+    
+}
+
+.bar a {
+    color: white; 
+    text-decoration: none;
+    margin: 0 15px ;
+     
+
+
+}
+
+.bar a:hover {
+    color: lightgray; 
+}
+#name {
+    font-size: 50px;
+    color: #2d3142;
+    text-align: center;
+    margin-top: 20px;
+}
+#home{
+    
+    font-size: 20px;
+    color: #2d3142;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+
+    border: 2px solid #2d3142; 
+    border-radius: 5px;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+
+            
+    margin: 200px auto; 
+    border-radius: 2px;
+
+}
+#form-head {  
+    color: #2d3142;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.form {
+    font-size: 20px;
+    color: #2d3142;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    
+    margin: auto; 
+    padding: 25px; /* Proper padding */
+    border-radius: 2px; 
+}
+.form-wrapper {
+    width: 29%; /* Adjust width */
+    margin: auto; 
+    padding: 25px; 
+    border: 2px solid #2d3142; 
+    border-radius: 5px;
+    background-color: #ffffff; 
+    
+}
+/* Improve input styling */
+.form input,
+.form textarea {
+    width: 100%;  /* Make input fields fill the box */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #2d3142;
+    border-radius: 5px;
+}
+
+/* Fix checkboxes */
+.form input[type="checkbox"] {
+    width: auto; /* Ensure checkboxes stay small */
+    margin-right: 5px;
+}
+
+.done{
+    color: #2d3142;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.post{
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #2d3142;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    width: 230px;
+    height: 400px;
+    padding: 20px;
+    justify-content: center;
+}
+.movie-grid ul {
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 per row */
+    gap: 20px;
+  }
+  
+  .movie-grid li {
+    text-align: center;
+  }
+  
+ .button {
+    background-color: #2d3142;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 16px;
+    margin-top: 10px;
+ }
+ 
